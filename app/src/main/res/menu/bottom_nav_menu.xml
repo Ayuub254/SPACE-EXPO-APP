@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home2"
+            android:title="Home"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_documentaries"
+            android:icon="@drawable/category"
+            android:title="Quiz"
+            android:visible="true" />
+       <item
+           android:id="@+id/nav_fav"
+           android:icon="@drawable/explore"
+           android:title="Discover more"
+           android:visible="true" />
+
+       <item
+           android:id="@+id/nav_admin"
+           android:icon="@drawable/person"
+           android:title="Admin"
+           android:visible="false" />
+       <item
+           android:id="@+id/nav_logout"
+           android:icon="@drawable/logout_button"
+           android:title="Logout"
+           android:visible="true" />
+   </group>
+
+</menu>

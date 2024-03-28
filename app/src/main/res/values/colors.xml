@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#97F2FF</color>
+    <color name="dark_blue">#477BFF</color>
+    <color name="button_blue">#1D99B5</color>
+    <color name="mars_brown">#F8B375</color>
+    <color name="neptune_blue">#00AAEC</color>
+    <color name="jupiter_green">#25E602</color>
+    <color name="purple">#633BC8</color>
+</resources>

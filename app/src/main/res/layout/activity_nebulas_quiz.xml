@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NebulasQuiz">
+
+    <TextView
+        android:id="@+id/textViewQuestion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Question"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOptionsNebulae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewQuestion3"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonOption1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Option 1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOption2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Option 2"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOption3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Option 3"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOption4b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Option 4"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNextNebulae"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupOptionsNebulae"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_view_more"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#F8F5F5"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewResultsNebulae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNextNebulae"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Quiz Results:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBackNebulae"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResultsNebulae"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button_view_more"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Back"
+        android:textSize="16sp" />
+
+</RelativeLayout>

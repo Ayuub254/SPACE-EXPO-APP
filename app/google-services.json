@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1024107346304",
+    "project_id": "space-explorer-ce55e",
+    "storage_bucket": "space-explorer-ce55e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024107346304:android:bb633cba83f60928df2965",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMi6sj_5Wz8Y7DqRFD8EpumpZKO7D4NXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
